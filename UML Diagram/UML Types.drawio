@@ -129,11 +129,29 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="oOeflvM_Ef1jipLuRIfE" name="Page-3">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="oOeflvM_Ef1jipLuRIfE" name="Dependency">
+    <mxGraphModel dx="1306" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5SIMsiRaFyn5YmS0bkTG-3" value="Person" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="340" width="170" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="5SIMsiRaFyn5YmS0bkTG-6" value="+ hasRead(book) : boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5SIMsiRaFyn5YmS0bkTG-3">
+          <mxGeometry y="26" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="5SIMsiRaFyn5YmS0bkTG-7" value="Book" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="340" width="170" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="5SIMsiRaFyn5YmS0bkTG-8" value="." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5SIMsiRaFyn5YmS0bkTG-7">
+          <mxGeometry y="26" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="5SIMsiRaFyn5YmS0bkTG-10" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="363.5" as="sourcePoint" />
+            <mxPoint x="530" y="363.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
