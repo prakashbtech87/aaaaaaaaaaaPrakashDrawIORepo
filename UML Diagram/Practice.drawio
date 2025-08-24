@@ -425,6 +425,43 @@
         <mxCell id="JsJTToTgGDwjsnuKYCCT-4" value="- reason: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="JsJTToTgGDwjsnuKYCCT-1">
           <mxGeometry y="78" width="270" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="JsJTToTgGDwjsnuKYCCT-16" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.444;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="JsJTToTgGDwjsnuKYCCT-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="178" as="sourcePoint" />
+            <mxPoint x="780" y="178" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsJTToTgGDwjsnuKYCCT-30" value="" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="JsJTToTgGDwjsnuKYCCT-19" target="JsJTToTgGDwjsnuKYCCT-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JsJTToTgGDwjsnuKYCCT-19" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="170" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JsJTToTgGDwjsnuKYCCT-21" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JsJTToTgGDwjsnuKYCCT-25" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.242;exitY=1.096;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="142.92000000000007" y="255.9960000000001" as="sourcePoint" />
+            <mxPoint x="490" y="362.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="256.5" />
+              <mxPoint x="150" y="362.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsJTToTgGDwjsnuKYCCT-26" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="337" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JsJTToTgGDwjsnuKYCCT-27" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="258" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JsJTToTgGDwjsnuKYCCT-28" value="transfers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="368" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JsJTToTgGDwjsnuKYCCT-29" value="destinationDepartment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="218" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
