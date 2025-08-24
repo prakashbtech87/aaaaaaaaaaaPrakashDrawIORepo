@@ -631,13 +631,13 @@
         <mxCell id="qwLJRZO2keWsMUApXVFX-20" value="Payment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" width="250" height="156" as="geometry" />
         </mxCell>
-        <mxCell id="qwLJRZO2keWsMUApXVFX-21" value="- paymentID: String{unique}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qwLJRZO2keWsMUApXVFX-20">
+        <mxCell id="qwLJRZO2keWsMUApXVFX-21" value="- paymentId: String{unique}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qwLJRZO2keWsMUApXVFX-20">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qwLJRZO2keWsMUApXVFX-22" value="- amount: BigDecimal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qwLJRZO2keWsMUApXVFX-20">
           <mxGeometry y="52" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qwLJRZO2keWsMUApXVFX-23" value="&amp;nbsp;- currency: Currency{INR,US,EUR}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qwLJRZO2keWsMUApXVFX-20">
+        <mxCell id="qwLJRZO2keWsMUApXVFX-23" value="&amp;nbsp;- currency: Currency" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qwLJRZO2keWsMUApXVFX-20">
           <mxGeometry y="78" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qwLJRZO2keWsMUApXVFX-25" value="- status: PaymentStatus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qwLJRZO2keWsMUApXVFX-20">
@@ -708,6 +708,36 @@
         <mxCell id="riFfPmQ1kEJdygVjZtyU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.029;entryY=0.865;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="riFfPmQ1kEJdygVjZtyU-13" target="riFfPmQ1kEJdygVjZtyU-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="634" y="342" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qwLJRZO2keWsMUApXVFX-51" value="Currency" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="40" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLJRZO2keWsMUApXVFX-52" value="INR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qwLJRZO2keWsMUApXVFX-51">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLJRZO2keWsMUApXVFX-53" value="EUR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qwLJRZO2keWsMUApXVFX-51">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLJRZO2keWsMUApXVFX-54" value="USD" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qwLJRZO2keWsMUApXVFX-51">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLJRZO2keWsMUApXVFX-56" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1.016;exitY=0.769;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qwLJRZO2keWsMUApXVFX-23" target="qwLJRZO2keWsMUApXVFX-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="900" y="160" as="sourcePoint" />
+            <mxPoint x="970" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qwLJRZO2keWsMUApXVFX-57" value="Each Bookking must have exactly 1 PRIMARY guest" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="430" width="470" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLJRZO2keWsMUApXVFX-58" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.423;exitY=-0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qwLJRZO2keWsMUApXVFX-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="420" as="sourcePoint" />
+            <mxPoint x="130" y="368" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
