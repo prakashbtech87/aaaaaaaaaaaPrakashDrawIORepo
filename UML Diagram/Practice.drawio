@@ -630,9 +630,9 @@
             <mxPoint y="16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qwLJRZO2keWsMUApXVFX-11" value="*" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="qwLJRZO2keWsMUApXVFX-9">
+        <mxCell id="qwLJRZO2keWsMUApXVFX-11" value="1..*" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="qwLJRZO2keWsMUApXVFX-9">
           <mxGeometry x="1" relative="1" as="geometry">
-            <mxPoint x="-11" y="5" as="offset" />
+            <mxPoint x="-11" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qwLJRZO2keWsMUApXVFX-12" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="riFfPmQ1kEJdygVjZtyU-13">
