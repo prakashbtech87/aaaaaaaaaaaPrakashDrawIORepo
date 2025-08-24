@@ -372,6 +372,11 @@
         <mxCell id="cE7DWyUk9bqDtXOmYFIi-5" value="- hireDate: LocalDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cE7DWyUk9bqDtXOmYFIi-1">
           <mxGeometry y="104" width="260" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="cE7DWyUk9bqDtXOmYFIi-30" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="cE7DWyUk9bqDtXOmYFIi-1" source="cE7DWyUk9bqDtXOmYFIi-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cE7DWyUk9bqDtXOmYFIi-17" value="- isManager: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cE7DWyUk9bqDtXOmYFIi-1">
           <mxGeometry y="130" width="260" height="26" as="geometry" />
         </mxCell>
@@ -395,6 +400,18 @@
         </mxCell>
         <mxCell id="cE7DWyUk9bqDtXOmYFIi-15" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="cE7DWyUk9bqDtXOmYFIi-13">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cE7DWyUk9bqDtXOmYFIi-31" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="218" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cE7DWyUk9bqDtXOmYFIi-32" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="256" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cE7DWyUk9bqDtXOmYFIi-33" value="employee" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="238" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cE7DWyUk9bqDtXOmYFIi-34" value="subordinate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="268" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
