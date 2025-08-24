@@ -377,7 +377,7 @@
             <mxPoint x="200" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cE7DWyUk9bqDtXOmYFIi-17" value="- isManager: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cE7DWyUk9bqDtXOmYFIi-1">
+        <mxCell id="cE7DWyUk9bqDtXOmYFIi-17" value="- isManager: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cE7DWyUk9bqDtXOmYFIi-1">
           <mxGeometry y="130" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cE7DWyUk9bqDtXOmYFIi-6" value="Department" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -407,10 +407,10 @@
         <mxCell id="cE7DWyUk9bqDtXOmYFIi-32" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="256" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cE7DWyUk9bqDtXOmYFIi-33" value="employee" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="238" width="80" height="30" as="geometry" />
+        <mxCell id="cE7DWyUk9bqDtXOmYFIi-33" value="manager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="238" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cE7DWyUk9bqDtXOmYFIi-34" value="subordinate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="cE7DWyUk9bqDtXOmYFIi-34" value="subordinates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="265" y="268" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
